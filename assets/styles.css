@@ -1,0 +1,13 @@
+:root {
+  /* COLOR VARIABLES */
+  --color-light-blue: hsl(213, 100%, 98%);
+  --color-blue: hsl(198, 100%, 45%);
+  --color-dark-blue: hsl(212, 68%, 40%);
+  --color-purple: hsl(291, 49%, 31%);
+  --color-light-yellow: hsl(46, 100%, 78%);
+  --color-yellow: hsl(45, 100%, 50%);
+
+  /* FONT VARIABLES */
+  --font-notosans: "Noto Sans Display", sans-serif;
+  --fs-buttons: 20px;
+}
