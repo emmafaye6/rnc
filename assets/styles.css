@@ -148,7 +148,7 @@ h3 {
 
 .network_card_container {
   display: flex;
-  width: 80%;
+  width: 85%;
   justify-content: space-evenly;
   font-weight: 600;
   font-size: 1.563rem;
@@ -201,7 +201,7 @@ h3 {
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
-  background: url("assets/images/pattern2.svg") #ffe690 repeat;
+  background: url("./images/pattern2.svg") #ffe690 repeat;
   width: 100%;
   height: auto;
   color: var(--color-purple);
@@ -213,20 +213,25 @@ h3 {
   padding-right: 2rem;
 }
 
+.joinuscontainer a {
+  text-decoration: none;
+  width: 65%;
+  display: flex;
+}
+
 .joinus_image {
-  width: 60%;
+  width: 100%;
   object-fit: contain;
   justify-self: flex-end;
 }
 
 .joinus_smalltext {
   display: inline-block;
-
   font-weight: 600;
   font-size: 1.563rem;
   line-height: 149.7%;
   text-align: right;
-  width: 70%;
+  width: 60%;
   height: fit-content;
   width: 50%;
   display: flex;
@@ -234,7 +239,7 @@ h3 {
 }
 
 .joinus_bigtext {
-  width: 70%;
+  width: 60%;
   text-align: right;
   font-weight: 700;
   font-size: 2rem;
@@ -360,6 +365,7 @@ a:active {
   .button {
     padding: 0.8rem 1rem;
     font-size: 1rem;
+    margin-top: 1rem;
   }
 
   .network_container {
@@ -383,7 +389,8 @@ a:active {
   }
 
   .network_icons {
-    width: 30%;
+    width: 25%;
+    margin: 1rem;
   }
 
   footer {
