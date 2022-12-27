@@ -306,13 +306,59 @@ a:active {
 
 /* MENTIONS LÉGALES */
 
+.legaltext {
+  padding: 0.5rem 4rem;
+  line-height: 180%;
+}
+
+.legaltext .bold {
+  color: var(--color-purple);
+  font-size: 1.2rem;
+}
+
+.legaltext a {
+  color: var(--color-purple);
+}
+
+.address {
+  font-weight: 800;
+}
+
+.bigtitlelegal,
+.smalltitlelegal {
+  padding: 0rem 4rem;
+}
+
 .bigtitlelegal {
+  text-align: left;
+  font-weight: 800;
+  font-size: 2rem;
+  line-height: 120%;
+  color: var(--color-purple);
 }
 
 .smalltitlelegal {
+  text-align: left;
+  font-weight: 500;
+  font-size: 1.8rem;
+  line-height: 120%;
+  color: var(--color-blue);
+}
+
+.dividerlegal,
+.dividerlegalsmall {
+  margin-left: 4rem;
+  height: 2px;
+  border: var(--color-yellow);
+  background-color: var(--color-yellow);
 }
 
 .dividerlegal {
+  width: 50%;
+}
+
+.dividerlegalsmall {
+  width: 20%;
 }
 
 /* MEDIA QUERIES */
