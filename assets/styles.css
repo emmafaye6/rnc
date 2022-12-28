@@ -65,12 +65,16 @@ h3 {
 
 .heroimage {
   width: 90%;
+  max-width: 62.3rem;
+  margin-bottom: 2.5rem;
 }
 
 .first_container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  max-width: 62.3rem;
+  margin: 0 auto;
 }
 
 .firstcolumn {
@@ -78,6 +82,7 @@ h3 {
   color: white;
   min-width: 35%;
   max-height: 25rem;
+  min-height: 19rem;
   max-width: 30.625rem;
   padding: 2rem 0rem;
   margin: 2.25rem 0 0 3.75rem;
@@ -149,6 +154,7 @@ h3 {
 .network_card_container {
   display: flex;
   width: 85%;
+  max-width: 85rem;
   justify-content: space-evenly;
   font-weight: 600;
   font-size: 1.563rem;
@@ -197,32 +203,40 @@ h3 {
   margin-left: -56rem;
 }
 
-.joinuscontainer {
+.joinuscontainer_wrapper {
   display: flex;
   flex-direction: column;
   margin-top: 4rem;
   background: url("./images/pattern2.svg") #ffe690 repeat;
-  width: 100%;
+
   height: auto;
   color: var(--color-purple);
 
   justify-content: flex-end;
   align-items: center;
 }
-.joinuscontainer p {
-  padding-right: 2rem;
+.joinus_container p {
+  padding-right: 4rem;
 }
 
-.joinuscontainer a {
+.joinus_container a {
   text-decoration: none;
   width: 65%;
   display: flex;
+}
+
+.joinus_container {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem 3rem 0rem 3rem;
+  align-items: center;
 }
 
 .joinus_image {
   width: 100%;
   object-fit: contain;
   justify-self: flex-end;
+  max-width: 48rem;
 }
 
 .joinus_smalltext {
@@ -233,7 +247,6 @@ h3 {
   text-align: right;
   width: 60%;
   height: fit-content;
-  width: 50%;
   display: flex;
   align-self: flex-end;
 }
@@ -309,6 +322,13 @@ a:active {
 .legaltext {
   padding: 0.5rem 4rem;
   line-height: 180%;
+}
+
+.legaltext .button {
+  color: white;
+  display: block;
+  width: fit-content;
+  padding: 0.8rem 1.8rem;
 }
 
 .legaltext .bold {
@@ -389,6 +409,7 @@ a:active {
     margin: 1.5rem 1.5rem 0 1.5rem;
     padding: 1.5rem 0rem;
     max-height: fit-content;
+    min-height: initial;
   }
 
   .firstcolumn_text {
