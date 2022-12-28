@@ -410,10 +410,13 @@ a:active {
     padding: 1.5rem 0rem;
     max-height: fit-content;
     min-height: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .firstcolumn_text {
-    padding: 0 1rem;
+    padding: 0 1.5rem;
   }
 
   .arrow {
